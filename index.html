@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Share humanity2</title>
+  
+</head>
+<body>
+
+
+
+  <header class="header">
+    <img src="images/logo.jpg" alt="Share_humanity logo" class="logo">
+
+    <nav class="topnav">
+      <a href="#" class="hide-desktop">
+        <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+  
+      </a>
+  
+      <ul class="hide-mobile" id="nav">
+        <li id="exit" class=" exit-btn "><img src="images/exit.svg" alt="exit menu"></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+ 
+
+  <div class="main-container">
+    
+    
+    
+    <div class="flex-box-container2">
+      <div>
+        <img src="images/Refugees.jpg" alt="">
+        <h2>Refugees </h2>
+        <p>In 2021, more children will be on the move than ever before <br>in history. 
+        Last year more than 80 million people around<br> the world were forced to flee their home ...</p>
+        <a href="issues.html#Refugees">View detail</a>
+      </div>
+      
+      <div>
+        <img src="images/Covid19.jpg" alt="">
+        <h2>Covid 19 </h2>
+        <p>Coronavirus disease (COVID-19) is an infectious disease <br> caused by a newly discovered coronavirus.</p>
+        <a href="issues.html#covid19">View detail</a>
+      </div>
+      
+           
+      <div>
+        <img src="images/child_mariage.jpg" alt="">
+        <h2>Child marriage/Gender Discrimination </h2>
+        <p>COVID-19 has created a crisis for girls around the world.<br> As vulnerable families 
+        lose their incomes, girls are <br>being sold into child marriage just to make ends meet.</p>
+        <a href="issues.html#child_mariage">View detail</a>
+      </div>
+
+      <div>
+        <img src="images/climate_change.jpg" alt="">
+        <h2>Climate change </h2>
+        <p>The weather on our planet is becoming more and more extreme,<br> with direct impacts 
+        on the poorest and most vulnerable children.</p>
+        <a href="issues.html#climate_change">View detail</a>
+      </div>
+
+      <div>
+        <img src="images/child_labour.jpg" alt="">
+        <h2>Child labour and traficking </h2>
+        <p>The number of children experiencing physical, emotional<br> and sexual violence, both now 
+        and in the months<br> and years to come is set to rise.</p>
+        <a href="issues.html#child_labour">View detail</a>
+      </div>
+
+      <div>
+        <img src="images/food_insecurity.jpg" alt="">
+        <h2>Food insecurity </h2>
+        <P>Food is more than a meal. It's survival<br>
+        if hunger does not kill a child, severe acute malnutrition <br>at an early age
+           can cause lifelong physical and mental damage. </P>
+           <a href="issues.html#food_insecurity">View detail</a>
+      </div>
+     
+    </div>
+  </div>
+
+  
+  <div class="copyrightText">
+    <p>
+        Copyright (c) 2021 Etshimanga Soft Inc. All rights reserved.
+    </p>
+
+    <script>
+      var menu = document.getElementById('menu');
+      var nav = document.getElementById('nav');
+      var exit = document.getElementById('exit');
+     
+      menu.addEventListener('click', function(e){
+        nav.classList.toggle('hide-mobile');
+        e.preventDefault();
+      });
+
+      exit.addEventListener('click', function(e){
+        nav.classList.add('hide-mobile');
+        e.preventDefault();
+      });
+    </script>
+
+</div>
+</body>
+</html>
